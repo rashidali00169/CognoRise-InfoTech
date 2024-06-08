@@ -1,3 +1,5 @@
+# CognoRise InfoTech Internship
+# Task 1
 # Project Python Password Generator
 import random
 
