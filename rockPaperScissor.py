@@ -4,7 +4,7 @@
 
 import random
 
-rock = '''
+rock = ''' ROCK
     _________
 ___|     _____)
         (_____)
@@ -15,7 +15,7 @@ ___|     _____)
 '''
 
 
-paper = '''
+paper = ''' PAPER
     ____________
 ___|     __________)
         (____________)
@@ -26,7 +26,7 @@ ___|     __________)
 '''
 
 
-scissor = '''
+scissor = ''' SCISSOR
     _______
 ___|  _____ )______
          __________ )
@@ -41,10 +41,16 @@ print(rock)
 print(paper)
 print(scissor)
 
+#Rules for the game
+print("Game Rules:")
+print("Rock crushes Scissors")
+print("Scissors cut Paper")
+print("Paper wraps Rock\n")
+
+
 # 0 for Rock
 # 1 for paper
 # 2 for scissor
-
 
 computerChoice = random.randint(0,2)
 
@@ -65,3 +71,4 @@ elif((myChoice == 0) and (computerChoice == 2 )) or ((myChoice == 2) and (comput
 else:
     print("Computer Win")
 
+print("Do You want to play again?")
